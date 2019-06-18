@@ -10,7 +10,7 @@ from pymongo import MongoClient
 from selenium.webdriver.support import expected_conditions as EC
 import numpy as np
 
-client = MongoClient('mongodb+srv://persnekru:Santtu420@cluster0-zypbs.mongodb.net/test')
+client = MongoClient('mongodb+srv://yuser:pass@cluster0-zypbs.mongodb.net/test')
 myclient = MongoClient("mongodb://localhost:27017/")
 db = client.get_database('test')
 betsCollection = db.Bets

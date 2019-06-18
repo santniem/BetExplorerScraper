@@ -7,7 +7,7 @@ import time
 import threading
 
 
-client = MongoClient('mongodb+srv://persnekru:Santtu420@cluster0-zypbs.mongodb.net/test')
+client = MongoClient('mongodb+srv://user:pass@cluster0-zypbs.mongodb.net/test')
 db = client.get_database('test')
 bets = db.Bets
 
