@@ -67,7 +67,7 @@ python-engineio==3.8.1
 python-socketio==4.1.0
 pytoml==0.1.20
 pytz==2019.1
-PyYAML==5.1.1
+PyYAML==5.4
 
 redis==3.2.1
 requests==1.2.3
